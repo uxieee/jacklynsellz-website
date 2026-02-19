@@ -3,214 +3,306 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JacklynSellz — Performance Marketing Network</title>
-  <meta name="description" content="Join the JacklynSellz network. We connect vetted affiliates with high-quality advertisers through personal, trust-based partnerships.">
+  <title>JacklynSellz | Trust-First Affiliate Network for Vetted Partnerships</title>
+  <meta name="description" content="JacklynSellz is a trust-first affiliate network connecting vetted affiliates and advertisers through personal relationships, direct communication, and consistent follow-up.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://jacklynsellz.com/">
 
-  <!-- Fonts -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="JacklynSellz | Trust-First Affiliate Network for Vetted Partnerships">
+  <meta property="og:description" content="A personal, relationship-led affiliate network where vetted affiliates and advertisers build stronger long-term partnerships.">
+  <meta property="og:url" content="https://jacklynsellz.com/">
+  <meta property="og:image" content="https://jacklynsellz.com/assets/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="JacklynSellz | Trust-First Affiliate Network for Vetted Partnerships">
+  <meta name="twitter:description" content="Work directly with Jackie to build vetted, trust-based affiliate partnerships that actually scale.">
+  <meta name="twitter:image" content="https://jacklynsellz.com/assets/logo.png">
+
+  <link rel="icon" type="image/png" href="assets/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://jacklynsellz.com/#organization",
+          "name": "JacklynSellz",
+          "url": "https://jacklynsellz.com/",
+          "logo": "https://jacklynsellz.com/assets/logo.png",
+          "email": "mailto:jackie@jacklynsellz.com"
+        },
+        {
+          "@type": "Service",
+          "name": "JacklynSellz Affiliate Network",
+          "serviceType": "Affiliate Partnership Management",
+          "provider": {
+            "@id": "https://jacklynsellz.com/#organization"
+          },
+          "description": "A relationship-led affiliate network that helps vetted affiliates and advertisers build high-trust partnerships through personal communication and structured follow-up.",
+          "areaServed": "Global"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Who is JacklynSellz for?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "JacklynSellz is built for performance affiliates looking for reliable offers and advertisers looking for vetted affiliate partners."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is JacklynSellz different from large affiliate networks?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "JacklynSellz is relationship-led and personally managed by Jackie, with a focus on trust, fit, and long-term partner quality rather than volume."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you personally vet partners?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Every affiliate and advertiser relationship is reviewed personally to protect quality and improve matching."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I get started?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Send a short intro by email with your role and goals, and Jackie will reply personally with next steps."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  </script>
 </head>
 <body>
-
-  <!-- ===== Navigation ===== -->
-  <nav class="nav" id="nav">
-    <div class="nav-inner">
-      <a href="#" class="nav-logo">
-        <img src="assets/logo.png" alt="JacklynSellz">
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Main">
+      <a href="#top" class="brand">
+        <img src="assets/logo.png" alt="JacklynSellz logo">
       </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#problem">Why Us</a></li>
-        <li><a href="#how">How It Works</a></li>
-        <li><a href="#difference">The Difference</a></li>
-        <li><a href="#apply" class="btn btn-primary nav-cta">Apply Now</a></li>
-      </ul>
-      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
-        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-          <path d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
-    </div>
-  </nav>
 
-  <!-- ===== Hero ===== -->
-  <section class="hero" id="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-particles" id="particles"></div>
-    <div class="hero-content">
-      <div class="hero-text">
-        <div class="hero-badge">
-          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0l2.1 5.3L16 6l-4.2 3.7L13 16 8 12.5 3 16l1.2-6.3L0 6l5.9-.7z"/></svg>
-          Performance Marketing Network
-        </div>
-        <h1 class="hero-title">
-          Partnerships That<br>
-          <span class="highlight">Actually Perform</span>
-        </h1>
-        <p class="hero-subtitle">
-          JacklynSellz connects vetted affiliates with premium advertisers through trust-based, personal relationships — not automated guesswork.
-        </p>
-        <div class="hero-buttons">
-          <a href="#apply" class="btn btn-primary">
-            Join the Network
-            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-          <a href="#how" class="btn btn-secondary">See How It Works</a>
-        </div>
-      </div>
-      <div class="hero-image">
-        <div class="hero-logo-wrapper">
-          <div class="hero-logo-glow"></div>
-          <img src="assets/logo.png" alt="JacklynSellz Logo">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Stats Bar ===== -->
-  <section class="stats-bar">
-    <div class="stats-grid">
-      <div class="stat-item fade-in">
-        <div class="stat-number" data-target="100" data-suffix="%">100%</div>
-        <div class="stat-label">Personally Vetted Partners</div>
-      </div>
-      <div class="stat-item fade-in">
-        <div class="stat-number">3‑5</div>
-        <div class="stat-label">Matched Affiliates Per Offer</div>
-      </div>
-      <div class="stat-item fade-in">
-        <div class="stat-number">24h</div>
-        <div class="stat-label">Average Response Time</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Problem Section ===== -->
-  <section class="section problem-section" id="problem">
-    <div class="section-inner">
-      <div class="section-header fade-in">
-        <span class="section-label">The Problem</span>
-        <h2 class="section-title">Affiliate Marketing Is Broken</h2>
-        <p class="section-subtitle">The industry is full of noise. Quality partnerships are hard to find, harder to maintain, and impossible to scale with scattered tools.</p>
-      </div>
-      <div class="problem-grid">
-        <div class="problem-card fade-in">
-          <div class="problem-icon">
-            <svg width="28" height="28" fill="none" stroke="var(--color-cta)" stroke-width="2" viewBox="0 0 24 24"><path d="M12 9v2m0 4h.01M5.07 19h13.86c1.54 0 2.5-1.67 1.73-3L13.73 4c-.77-1.33-2.69-1.33-3.46 0L3.34 16c-.77 1.33.19 3 1.73 3z"/></svg>
-          </div>
-          <h3>Scattered Contacts</h3>
-          <p>Conversations spread across Messenger, Telegram, email, and group chats with no central system to track them.</p>
-        </div>
-        <div class="problem-card fade-in">
-          <div class="problem-icon">
-            <svg width="28" height="28" fill="none" stroke="var(--color-cta)" stroke-width="2" viewBox="0 0 24 24"><path d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-          </div>
-          <h3>Low-Trust Networks</h3>
-          <p>Most affiliate networks are transactional — they don't vet, they don't care, and they don't build real relationships.</p>
-        </div>
-        <div class="problem-card fade-in">
-          <div class="problem-icon">
-            <svg width="28" height="28" fill="none" stroke="var(--color-cta)" stroke-width="2" viewBox="0 0 24 24"><path d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/></svg>
-          </div>
-          <h3>Missed Opportunities</h3>
-          <p>Forgotten follow-ups, unqualified contacts, and wasted time on partners who never deliver results.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== How It Works ===== -->
-  <section class="section how-section" id="how">
-    <div class="section-inner">
-      <div class="section-header fade-in">
-        <span class="section-label">How It Works</span>
-        <h2 class="section-title">Simple. Personal. Effective.</h2>
-        <p class="section-subtitle">Three steps to join a network that actually values your partnership.</p>
-      </div>
-      <div class="steps-grid">
-        <div class="step-card fade-in">
-          <div class="step-number">1</div>
-          <h3>Apply & Connect</h3>
-          <p>Fill out a quick application. Tell us about your niche, experience, and what you're looking for in a partnership.</p>
-        </div>
-        <div class="step-card fade-in">
-          <div class="step-number">2</div>
-          <h3>Get Personally Vetted</h3>
-          <p>Jackie reviews every application personally. No bots, no auto-approvals — just a real conversation to ensure we're a fit.</p>
-        </div>
-        <div class="step-card fade-in">
-          <div class="step-number">3</div>
-          <h3>Start Performing</h3>
-          <p>Get matched with premium offers and advertisers that align with your strengths. Quality over quantity, every time.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Differentiator ===== -->
-  <section class="section diff-section" id="difference">
-    <div class="section-inner">
-      <div class="section-header fade-in">
-        <span class="section-label">The JacklynSellz Difference</span>
-        <h2 class="section-title">Not Just Another Network</h2>
-        <p class="section-subtitle">We're building something different — a curated, trust-first network where partnerships are personal.</p>
-      </div>
-      <div class="diff-grid">
-        <div class="diff-card fade-in">
-          <div class="diff-card-icon">🤝</div>
-          <h3>Personal, Not Automated</h3>
-          <p>Every affiliate and advertiser relationship is managed by Jackie herself. You'll never be just a number in a database.</p>
-        </div>
-        <div class="diff-card fade-in">
-          <div class="diff-card-icon">🔍</div>
-          <h3>Vetted Partners Only</h3>
-          <p>We don't accept everyone. Every partner in our network has been personally reviewed and qualified.</p>
-        </div>
-        <div class="diff-card fade-in">
-          <div class="diff-card-icon">🎯</div>
-          <h3>Precision Matching</h3>
-          <p>We match 3-5 affiliates per offer based on niche, traffic source, and track record — not spray and pray.</p>
-        </div>
-        <div class="diff-card fade-in">
-          <div class="diff-card-icon">💬</div>
-          <h3>Direct Communication</h3>
-          <p>Reach Jackie directly via Messenger, Telegram, or email. No ticket systems, no support bots, no runaround.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== CTA Section ===== -->
-  <section class="cta-section" id="apply">
-    <div class="cta-content fade-in">
-      <h2>Ready to Partner Up?</h2>
-      <p>Whether you're an affiliate looking for quality offers or an advertiser seeking vetted traffic — we'd love to connect.</p>
-      <a href="#" class="btn btn-white" id="ctaButton">
-        Apply to Join the Network
-        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </a>
-    </div>
-  </section>
-
-  <!-- ===== Footer ===== -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-logo">
-        <img src="assets/logo.png" alt="JacklynSellz">
-      </div>
-      <p class="footer-text">&copy; 2026 JacklynSellz. All rights reserved.</p>
-      <ul class="footer-links">
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Telegram</a></li>
-        <li><a href="mailto:jackie@jacklynsellz.com">Email</a></li>
+      <ul class="nav-links" id="primaryNav">
+        <li><a href="#why">Why JacklynSellz</a></li>
+        <li><a href="affiliates.html">For Affiliates</a></li>
+        <li><a href="advertisers.html">For Advertisers</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#apply" class="btn btn-sm">Start a Conversation</a></li>
       </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Trust-First Affiliate Partnerships</p>
+        <h1 class="reveal">Vetted affiliate partnerships built through real relationships.</h1>
+        <p class="lead reveal">
+          JacklynSellz helps affiliates and advertisers connect through personal communication,
+          careful vetting, and consistent follow-through, so partnerships can grow with confidence.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="mailto:jackie@jacklynsellz.com?subject=Affiliate%20Application">Apply as an Affiliate</a>
+          <a class="btn btn-secondary" href="mailto:jackie@jacklynsellz.com?subject=Advertiser%20Partnership">Partner as an Advertiser</a>
+        </div>
+        <ul class="metrics reveal" aria-label="Core value points">
+          <li><strong>Personally vetted</strong><span>Trusted partners over open-volume listings</span></li>
+          <li><strong>Direct communication</strong><span>Work with Jackie, not an anonymous queue</span></li>
+          <li><strong>Consistent follow-through</strong><span>No high-value relationship gets lost</span></li>
+        </ul>
+      </div>
+
+      <aside class="hero-card reveal" aria-label="Why partners choose JacklynSellz">
+        <h2>Why partners choose JacklynSellz</h2>
+        <p>A relationship-led network where people come first and the process keeps momentum moving.</p>
+        <ol>
+          <li><span>01</span>Conversations are captured from Facebook, Messenger, Telegram, and email</li>
+          <li><span>02</span>Affiliates and advertisers are personally vetted for fit and trust</li>
+          <li><span>03</span>Follow-up is structured so opportunities move forward instead of stalling</li>
+        </ol>
+        <div class="channel-row">
+          <span>Facebook</span>
+          <span>Messenger</span>
+          <span>Telegram</span>
+          <span>Email</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section shell" id="why">
+      <header class="section-head reveal">
+        <p class="eyebrow">The Problem</p>
+        <h2>"I have conversations everywhere and no clean way to manage them."</h2>
+      </header>
+      <div class="card-grid card-grid-3">
+        <article class="info-card reveal">
+          <h3>Scattered Conversations</h3>
+          <p>Partner discussions get split across Messenger, Telegram, email, and group chats.</p>
+        </article>
+        <article class="info-card reveal">
+          <h3>Low-Trust Networks</h3>
+          <p>Many affiliate networks prioritize volume, creating mismatches and poor partner quality.</p>
+        </article>
+        <article class="info-card reveal">
+          <h3>Missed Follow-Ups</h3>
+          <p>Without structure, valuable opportunities go cold before they turn into active partnerships.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-process" id="process">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="eyebrow">How It Works</p>
+          <h2>Simple process. Personal execution.</h2>
+        </header>
+        <div class="process-grid">
+          <article class="step-card reveal">
+            <span class="step-no">1</span>
+            <h3>Share Your Goals</h3>
+            <p>Tell Jackie about your niche, offers, and what a strong partner fit looks like for you.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-no">2</span>
+            <h3>Personal Vetting</h3>
+            <p>Each relationship is reviewed directly to protect partner quality and long-term trust.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-no">3</span>
+            <h3>Match and Grow</h3>
+            <p>You get aligned partner introductions backed by consistent communication and follow-through.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="paths">
+      <header class="section-head reveal">
+        <p class="eyebrow">Who It Is For</p>
+        <h2>Built for both sides of performance partnerships.</h2>
+      </header>
+      <div class="card-grid card-grid-2">
+        <article class="path-card reveal" id="affiliates">
+          <h3>Affiliates</h3>
+          <ul>
+            <li>Access reliable offers through vetted advertiser relationships</li>
+            <li>Get direct communication and faster alignment on opportunities</li>
+            <li>Build long-term partnerships, not one-off transactions</li>
+          </ul>
+          <p><a href="affiliates.html">See affiliate details</a></p>
+        </article>
+        <article class="path-card reveal" id="advertisers">
+          <h3>Advertisers</h3>
+          <ul>
+            <li>Connect with curated affiliates selected for fit and trust</li>
+            <li>Reduce noise from low-quality, high-volume outreach</li>
+            <li>Scale with cleaner partner communication and expectation setting</li>
+          </ul>
+          <p><a href="advertisers.html">See advertiser details</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-contrast">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="eyebrow">The Difference</p>
+          <h2>Relationship-led network vs. transaction-led marketplace.</h2>
+        </header>
+        <div class="compare reveal" role="table" aria-label="JacklynSellz comparison">
+          <div class="compare-head" role="row">
+            <span role="columnheader">Approach</span>
+            <span role="columnheader">Typical network</span>
+            <span role="columnheader">JacklynSellz</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span role="cell">Relationship model</span>
+            <span role="cell">Impersonal and transactional</span>
+            <span role="cell">Personal, trust-based, and long-term</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span role="cell">Partner quality</span>
+            <span role="cell">Broad and inconsistent</span>
+            <span role="cell">Curated and personally vetted</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span role="cell">Communication</span>
+            <span role="cell">Queue-driven handoffs</span>
+            <span role="cell">Direct line with Jackie</span>
+          </div>
+          <div class="compare-row" role="row">
+            <span role="cell">Follow-through</span>
+            <span role="cell">Manual and easy to miss</span>
+            <span role="cell">Structured and consistent</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="faq">
+      <header class="section-head reveal">
+        <p class="eyebrow">FAQ</p>
+        <h2>Questions people ask before partnering.</h2>
+      </header>
+      <div class="faq-grid">
+        <details class="faq-item reveal">
+          <summary>Who is JacklynSellz for?</summary>
+          <p>JacklynSellz is for performance affiliates looking for reliable offers and advertisers looking for vetted affiliate partners.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>How is this different from large affiliate networks?</summary>
+          <p>Large networks often optimize for volume. JacklynSellz is relationship-led and personally managed, focused on trust, fit, and long-term partner quality.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Do you personally vet partners?</summary>
+          <p>Yes. Every affiliate and advertiser relationship is reviewed personally before introductions are made.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>How do I get started?</summary>
+          <p>Send a short intro with your role and goals. Jackie will reply personally with next steps.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section shell cta-block" id="apply">
+      <div class="cta-card reveal">
+        <p class="eyebrow">Start Here</p>
+        <h2>Ready to build stronger affiliate partnerships?</h2>
+        <p>Share a quick intro and your goals. Jackie will follow up directly.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:jackie@jacklynsellz.com?subject=Start%20Partnership%20Conversation">Start a Conversation</a>
+          <a class="btn btn-secondary" href="mailto:jackie@jacklynsellz.com?subject=Request%20Partnership%20Details">Request Partnership Details</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-content">
+      <img src="assets/logo.png" alt="JacklynSellz logo">
+      <p>&copy; <span id="currentYear"></span> JacklynSellz. Built for trusted performance partnerships.</p>
     </div>
   </footer>
 
-  <!-- ===== JavaScript ===== -->
   <script src="index.js"></script>
 </body>
 </html>
